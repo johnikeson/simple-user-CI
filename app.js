@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 const uri = process.env.MONGO_URI;
 const client = new MongoClient(uri);
 
-const DEFAULT_IMAGE = "https://i.pravatar.cc/150?img=12";
+const DEFAULT_IMAGE = "https://media.licdn.com/dms/image/v2/D4E35AQGY1VojsPBzSQ/profile-framedphoto-shrink_800_800/B4EZ4reZmCKsAg-/0/1778845850328?e=1781985600&v=beta&t=3I6fsVE-HN9ezH2pzpWaC4lzbqqrBOMviMD8PgRwI-g";
 
 async function start() {
   await client.connect();
